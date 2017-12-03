@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                setContentView(R.layout.event_form);
             }
         });
 
@@ -80,13 +79,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_eventos) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_preferencies) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_profile) {
 
         }
 

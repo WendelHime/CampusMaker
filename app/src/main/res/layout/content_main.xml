@@ -10,6 +10,7 @@
     tools:showIn="@layout/app_bar_main">
 
 <!-- Include here using de ID of this linear layout, cards filled with events cards_layout.xml -->
+    <include layout="@layout/cards_layout"></include>
 
 
 </LinearLayout>

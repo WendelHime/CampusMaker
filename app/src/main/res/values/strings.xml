@@ -8,4 +8,19 @@
     <string name="nav_header_subtitle">wendel.castro@saojudas.br</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="areaArray">
+        <item>Selecione a área de atuação do evento</item>
+        <item>Humanas</item>
+        <item>Exatas</item>
+        <item>Biológicas</item>
+    </string-array>
+    <string-array name="unidadeArray">
+        <item>Selecione a unidade</item>
+        <item>Mooca</item>
+        <item>Butantã</item>
+        <item>Paulista</item>
+        <item>Santo Amaro</item>
+        <item>Jabaquara</item>
+    </string-array>
 </resources>
